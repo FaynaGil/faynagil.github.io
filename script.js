@@ -1,9 +1,9 @@
 const translations = {
     en: {
       subtitle: "Digital Interaction & Multimedia Student",
-      intro: "I am currently studying Digital Interaction Techniques and Multimedia. I am interested in web design, digital content creation, UI design and multimedia projects.",
+      intro: "I am currently finishing my degree in Digital Interaction and Multimedia, with 4 subjects and my final project remaining. I am interested in UI/UX design, web development and digital content creation.",
       aboutTitle: "About me",
-      aboutText: "I have experience in administrative work, social media management, basic website management and digital tools. I am organized, detail-oriented and motivated to continue developing my skills in digital and multimedia projects.",
+      aboutText: "I also have a strong interest in understanding how businesses work, analysing processes and exploring how technology can improve them. Additionally, I value teamwork and workplace well-being, and I enjoy contributing to positive and organized work environments.",
       projectsTitle: "Projects",
       figmaTitle: "Figma Projects",
       figmaText: "UI and visual design projects created with Figma.",
@@ -20,9 +20,9 @@ const translations = {
   
     es: {
       subtitle: "Estudiante de Interacción Digital y Multimedia",
-      intro: "Actualmente estudio Técnicas de Interacción Digital y Multimedia. Me interesan el diseño web, la creación de contenido digital, el diseño UI y los proyectos multimedia.",
+      intro: "Actualmente estoy finalizando el grado de Interacción Digital y Multimedia, con 4 asignaturas y el TFG pendientes. Me interesa el diseño UI/UX, el desarrollo web y la creación de contenido digital.",
       aboutTitle: "Sobre mí",
-      aboutText: "Tengo experiencia en administración, gestión de redes sociales, gestión web básica y herramientas digitales. Soy organizada, detallista y estoy motivada para seguir desarrollando mis habilidades en proyectos digitales y multimedia.",
+      aboutText: "También tengo interés en comprender cómo funcionan las empresas, analizar procesos y ver cómo la tecnología puede ayudar a mejorarlos. Además, valoro el trabajo en equipo y el bienestar laboral, y me gusta contribuir a entornos de trabajo organizados y positivos.",
       projectsTitle: "Proyectos",
       figmaTitle: "Proyectos en Figma",
       figmaText: "Proyectos de diseño visual e interfaz creados con Figma.",
@@ -56,4 +56,3 @@ const translations = {
     document.getElementById("skills-title").textContent = translations[lang].skillsTitle;
     document.getElementById("languages").textContent = translations[lang].languages;
   }
-  

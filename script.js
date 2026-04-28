@@ -14,8 +14,8 @@ const translations = {
       webTitle: "University Web Projects",
       webText: "Web and multimedia projects created during my studies.",
       githubLink: "View GitHub repositories",
-      skillsTitle: "Skills"
-    },
+      skillsTitle: "Skills",
+      languages: "English: B1+ (Upper - intermediate"
     es: {
       subtitle: "Estudiante de Interacción Digital y Multimedia",
       intro: "Actualmente estudio Técnicas de Interacción Digital y Multimedia. Me interesan el diseño web, la creación de contenido digital, el diseño UI y los proyectos multimedia.",
@@ -32,6 +32,7 @@ const translations = {
       webText: "Proyectos web y multimedia realizados durante mis estudios.",
       githubLink: "Ver repositorios en GitHub",
       skillsTitle: "Conocimientos"
+      languages: "Inglés: B1+ (Intermedio alto)"
     }
   };
   

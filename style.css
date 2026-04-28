@@ -10,7 +10,7 @@
     line-height: 1.6;
   }
   
-  /* 🔘 BOTONES IDIOMA */
+  /* BOTONES IDIOMA */
   .language-switch {
     position: fixed;
     top: 20px;
@@ -37,12 +37,7 @@
     transform: translateY(-1px);
   }
   
-  .language-switch button:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px rgba(179, 91, 140, 0.3);
-  }
-  
-  /* 👤 HERO */
+  /* HERO */
   .hero {
     min-height: 70vh;
     display: flex;
@@ -72,12 +67,20 @@
     color: #b35b8c;
   }
   
-  .links {
+  .language-level {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* BOTONES */
+  .links,
+  .cv-links {
     margin-top: 25px;
   }
   
   .links a,
-  .project a {
+  .project a,
+  .cv-button {
     display: inline-block;
     margin: 8px 10px 8px 0;
     padding: 10px 16px;
@@ -87,7 +90,13 @@
     border-radius: 6px;
   }
   
-  /* 📄 CONTENIDO */
+  .links a:hover,
+  .project a:hover,
+  .cv-button:hover {
+    background-color: #944a73;
+  }
+  
+  /* CONTENIDO */
   main {
     max-width: 900px;
     margin: 0 auto;
@@ -103,7 +112,7 @@
     padding-bottom: 8px;
   }
   
-  /* 📦 PROYECTOS */
+  /* PROYECTOS */
   .project {
     background-color: white;
     padding: 20px;
@@ -111,7 +120,7 @@
     border-radius: 10px;
   }
   
-  /* 🔻 FOOTER */
+  /* FOOTER */
   footer {
     text-align: center;
     padding: 25px;
@@ -119,7 +128,7 @@
     color: #777;
   }
   
-  /* 📱 RESPONSIVE */
+  /* RESPONSIVE */
   @media (max-width: 700px) {
     .hero {
       flex-direction: column;

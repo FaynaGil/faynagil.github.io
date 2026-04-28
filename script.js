@@ -11,9 +11,9 @@ const translations = {
       videoTitle: "Video & Content Creation",
       videoText: "Digital content and video projects published on my YouTube channel.",
       youtubeLink: "View YouTube channel",
-      webTitle: "University Web Projects",
-      webText: "Web and multimedia projects created during my studies.",
-      githubLink: "View GitHub repositories",
+      webTitle: "University Projects",
+      webText: "Multimedia projects created during my studies.",
+      multimediaLink: "View multimedia projets",
       skillsTitle: "Skills",
       languages: "English: B1+ (B2 in progress)"
     },
@@ -30,9 +30,9 @@ const translations = {
       videoTitle: "Vídeo y creación de contenido",
       videoText: "Proyectos de contenido digital y vídeo publicados en mi canal de YouTube.",
       youtubeLink: "Ver canal de YouTube",
-      webTitle: "Proyectos web universitarios",
-      webText: "Proyectos web y multimedia realizados durante mis estudios.",
-      githubLink: "Ver repositorios en GitHub",
+      webTitle: "Proyectos universitarios",
+      webText: "Proyectos multimedia realizados durante mis estudios.",
+      multimediaLink: "Ver proyectos multimeda",
       skillsTitle: "Conocimientos",
       languages: "Inglés: B1+ (B2 en progreso)"
     }
@@ -52,7 +52,7 @@ const translations = {
     document.getElementById("youtube-link").textContent = translations[lang].youtubeLink;
     document.getElementById("web-title").textContent = translations[lang].webTitle;
     document.getElementById("web-text").textContent = translations[lang].webText;
-    document.getElementById("github-link").textContent = translations[lang].githubLink;
+    document.getElementById("multimedia-link").textContent = translations[lang].multimediaLink;
     document.getElementById("skills-title").textContent = translations[lang].skillsTitle;
     document.getElementById("languages").textContent = translations[lang].languages;
   }

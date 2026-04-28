@@ -6,15 +6,21 @@
   <title>Fayna Gil Arana | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+  <div class="language-switch">
+    <button onclick="setLanguage('en')">EN</button>
+    <button onclick="setLanguage('es')">ES</button>
+  </div>
 
   <header class="hero">
     <img src="images/foto_sf.png" alt="Fayna Gil Arana" class="profile-img">
 
     <div>
       <h1>Fayna Gil Arana</h1>
-      <p class="subtitle">Digital Interaction & Multimedia Student</p>
-      <p>
+      <p class="subtitle" id="subtitle">Digital Interaction & Multimedia Student</p>
+      <p id="intro">
         I am currently studying Digital Interaction Techniques and Multimedia.
         I am interested in web design, digital content creation, UI design and multimedia projects.
       </p>
@@ -29,8 +35,8 @@
 
   <main>
     <section>
-      <h2>About me</h2>
-      <p>
+      <h2 id="about-title">About me</h2>
+      <p id="about-text">
         I have experience in administrative work, social media management,
         website management and digital tools. I am organized, detail-oriented
         and motivated to continue developing my skills in digital and multimedia projects.
@@ -38,29 +44,29 @@
     </section>
 
     <section>
-      <h2>Projects</h2>
+      <h2 id="projects-title">Projects</h2>
 
       <div class="project">
-        <h3>Figma Projects</h3>
-        <p>UI and visual design projects created with Figma.</p>
-        <a href="#" target="_blank">View project</a>
+        <h3 id="figma-title">Figma Projects</h3>
+        <p id="figma-text">UI and visual design projects created with Figma.</p>
+        <a href="#" target="_blank" id="figma-link">View project</a>
       </div>
 
       <div class="project">
-        <h3>Video & Content Creation</h3>
-        <p>Digital content and video projects published on my YouTube channel.</p>
-        <a href="https://www.youtube.com/@faynagilarana3969" target="_blank">View YouTube channel</a>
+        <h3 id="video-title">Video & Content Creation</h3>
+        <p id="video-text">Digital content and video projects published on my YouTube channel.</p>
+        <a href="https://www.youtube.com/@faynagilarana3969" target="_blank" id="youtube-link">View YouTube channel</a>
       </div>
 
       <div class="project">
-        <h3>University Web Projects</h3>
-        <p>Web and multimedia projects created during my studies.</p>
-        <a href="https://github.com/FaynaGil" target="_blank">View GitHub repositories</a>
+        <h3 id="web-title">University Web Projects</h3>
+        <p id="web-text">Web and multimedia projects created during my studies.</p>
+        <a href="https://github.com/FaynaGil" target="_blank" id="github-link">View GitHub repositories</a>
       </div>
     </section>
 
     <section>
-      <h2>Skills</h2>
+      <h2 id="skills-title">Skills</h2>
       <p>
         HTML, CSS, JavaScript, Figma, Canva, Adobe Photoshop, Illustrator,
         InDesign, Premiere Pro, After Effects, GitHub, Shopify, Trello and Odoo.
@@ -72,5 +78,6 @@
     <p>© 2026 Fayna Gil Arana</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>

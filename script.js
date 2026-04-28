@@ -3,7 +3,7 @@ const translations = {
       subtitle: "Digital Interaction & Multimedia Student",
       intro: "I am currently studying Digital Interaction Techniques and Multimedia. I am interested in web design, digital content creation, UI design and multimedia projects.",
       aboutTitle: "About me",
-      aboutText: "I have experience in administrative work, social media management, website management and digital tools. I am organized, detail-oriented and motivated to continue developing my skills in digital and multimedia projects.",
+      aboutText: "I have experience in administrative work, social media management, basic website management and digital tools. I am organized, detail-oriented and motivated to continue developing my skills in digital and multimedia projects.",
       projectsTitle: "Projects",
       figmaTitle: "Figma Projects",
       figmaText: "UI and visual design projects created with Figma.",
@@ -15,12 +15,14 @@ const translations = {
       webText: "Web and multimedia projects created during my studies.",
       githubLink: "View GitHub repositories",
       skillsTitle: "Skills",
-      languages: "English: B1+ (B2 in progress)",
-      es: {
+      languages: "English: B1+ (B2 in progress)"
+    },
+  
+    es: {
       subtitle: "Estudiante de Interacción Digital y Multimedia",
       intro: "Actualmente estudio Técnicas de Interacción Digital y Multimedia. Me interesan el diseño web, la creación de contenido digital, el diseño UI y los proyectos multimedia.",
       aboutTitle: "Sobre mí",
-      aboutText: "Tengo experiencia en administración, gestión de redes sociales, gestión web y herramientas digitales. Soy organizada, detallista y estoy motivada para seguir desarrollando mis habilidades en proyectos digitales y multimedia.",
+      aboutText: "Tengo experiencia en administración, gestión de redes sociales, gestión web básica y herramientas digitales. Soy organizada, detallista y estoy motivada para seguir desarrollando mis habilidades en proyectos digitales y multimedia.",
       projectsTitle: "Proyectos",
       figmaTitle: "Proyectos en Figma",
       figmaText: "Proyectos de diseño visual e interfaz creados con Figma.",
@@ -31,7 +33,7 @@ const translations = {
       webTitle: "Proyectos web universitarios",
       webText: "Proyectos web y multimedia realizados durante mis estudios.",
       githubLink: "Ver repositorios en GitHub",
-      skillsTitle: "Conocimientos"
+      skillsTitle: "Conocimientos",
       languages: "Inglés: B1+ (B2 en progreso)"
     }
   };
@@ -52,4 +54,6 @@ const translations = {
     document.getElementById("web-text").textContent = translations[lang].webText;
     document.getElementById("github-link").textContent = translations[lang].githubLink;
     document.getElementById("skills-title").textContent = translations[lang].skillsTitle;
+    document.getElementById("languages").textContent = translations[lang].languages;
   }
+  
